@@ -125,7 +125,6 @@ body {
   margin-right: auto;
 }
 
-/* About section layout */
 .about-grid {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
