@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thomas Hanxi Guo</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="./index.html">Thomas Guo</a>
+        <nav class="nav">
+          <a href="./index.html">About</a>
+          <a href="./blog.html" aria-current="page">Blog</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h1>Blog</h1>
+        <p class="muted">this is where i ramble unfortunately</p>
+
+        <div class="divider"></div>
+
+        <article class="post-preview">
+          <h2 class="post-title">My personal (and candid) thoughts on my 1A term as a CS/BBA student</h2>
+          <p class="muted">Dec 28, 2025 • 10 min read</p>
+          <p>
+            Some ups, and downs, and a lot more downs (but it ends happily). Also some unsolicited tips for anyone interested in this super niche program.
+          </p>
+          <a class="button" href="./post-1.html">Read me</a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="muted">© <span id="year"></span> Thomas Guo</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

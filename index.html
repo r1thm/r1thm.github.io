@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thomas Hanxi Guo</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="./index.html">Thomas Guo</a>
+        <nav class="nav">
+          <a href="./index.html" aria-current="page">About</a>
+          <a href="./blog.html">Blog</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card about-grid">
+  <div class="about-text">
+    <h1>Hey, I'm Hanxi!</h1>
+    <i style="font-size: 25px;">You can also call me Thomas.</i>
+    <p>
+      I am a double degree student studying CS at the University of Waterloo and Business Administration at Wilfrid Laurier University. 
+      Happy to see you in my little corner of the internet :D
+    </p>
+
+    <ul class="meta">
+      <li><strong>Interests:</strong> karaoke, Pokémon plushie collecting, journalling (check out my new <a href="./blog.html" style="color: rgb(178, 178, 238);">blog</a>!)</li>
+      <li><strong>What I'm currently working on:</strong> A web scraper analyzing public perception of growing businesses.</li>
+    </ul>
+  </div>
+
+  <div class="about-image">
+    <img
+      src="./images/profile.jpg"
+      alt="That's me!"
+      width="200"
+      loading="lazy"
+    />
+  </div>
+</section>
+
+      <section class="card">
+        <div class="section-title">
+          <h2>My most recent blog!</h2>
+          <a class="small-link" href="./blog.html">View all →</a>
+        </div>
+
+        <article class="post-preview">
+          <h3>My personal (and candid) thoughts on my 1A term as a CS/BBA student</h3>
+          <p class="muted">Dec 28, 2025 • 10 min read</p>
+          <p>
+            Some ups, and downs, and a lot more downs (but it ends happily). Also some unsolicited tips for anyone interested in this super niche program.
+          </p>
+          <a class="button" href="./post-1.html">Read me</a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="muted">© <span id="year"></span> Thomas Guo</p>
+      </div>
+    </footer>
+    
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
