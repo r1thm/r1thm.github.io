@@ -30,6 +30,7 @@ body {
   background: #FFF3E6;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
+  z-index: 100;
 }
 
 .header-row {
