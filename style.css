@@ -176,6 +176,8 @@ li {
 .contact-row {
   display: flex;
   align-items: center;
+  gap: 30px;
+  flex-wrap: nowrap;
 }
 .webring {
   margin-left: auto;
