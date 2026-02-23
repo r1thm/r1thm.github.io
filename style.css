@@ -151,7 +151,7 @@ li {
   white-space: nowrap;
   border-right: 1px solid black;
   width: 0;
-  animation: typing 2.8s steps(15, end) forwards,
+  animation: typing 2.8s steps(18, end) forwards,
   blink 0.8s step-end infinite;
 }
 
@@ -160,7 +160,7 @@ li {
     width: 0;
   }
   to {
-    width: 15ch;
+    width: 16ch;
   }
 }
 
