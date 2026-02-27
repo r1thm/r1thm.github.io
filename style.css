@@ -137,6 +137,18 @@ li {
   grid-column: 1 / -1;
 }
 
+@media (max-width: 900px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
+
 .typewriter {
   display: flex;
 }
