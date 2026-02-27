@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Schibsted Grotesk', sans-serif;
-  background-color: #dfe7d0;
+  background-color: #ecf1e3;
   color: #111;
   line-height: 1.6;
 
@@ -57,16 +57,12 @@ li {
 }
 
 
-.project-card {
-  width: 280px;
-  border-radius: 10px;
-  overflow: hidden;
-}
+
 
 .project-card img {
   width: 100%;
   display: block;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 
@@ -91,7 +87,7 @@ li {
   position: relative;
   width: 320px;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 0px;
 }
 
 .project-card video {
@@ -132,13 +128,13 @@ li {
   opacity: 1;
 }
 .projects {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
 .projects h3 {
-  width: 100%;
+  grid-column: 1 / -1;
 }
 
 .typewriter {
